@@ -2,7 +2,7 @@
 .page {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .header {
   width: 500px;
@@ -63,7 +63,7 @@
 }
 /* Heading */
 .main__subtitle,
-.task-list__label[for="new-task"] {
+.add-panel__label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -89,7 +89,7 @@
 }
 
 /* New Task */
-.task-list__label[for="new-task"] {
+.add-panel__label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
